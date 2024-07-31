@@ -14,5 +14,10 @@ public class Casting3 {
 
         intValue = (int) maxIntOver; //형변환
         System.out.println("maxIntOver casting=" + intValue);
+
+        double doubleNumber = 10000;
+        int intNumber;
+        intNumber = (int) doubleNumber;
+        System.out.println(doubleNumber);
     }
 }
