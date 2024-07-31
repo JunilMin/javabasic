@@ -1,6 +1,6 @@
 package loop;
 
-public class While2_2 {
+public class While4 {
 
     public static void main(String[] args) {
         int sum = 0;

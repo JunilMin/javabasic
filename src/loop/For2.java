@@ -11,5 +11,9 @@ public class For2 {
             sum = sum + i;
             System.out.println("i=" + i + " sum=" + sum);
         }
+        for(int i = 0; i < 10 ; i++){
+
+            System.out.println("i = " + i);
+        }
     }
 }
