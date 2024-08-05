@@ -20,5 +20,10 @@ public class Casting4 {
         double result = (double) a / b;
         System.out.println("result = " + result); //1.5
 
+        int intN = 5;
+        double doubleN = 10;
+        System.out.println(intN+doubleN); // 다른 타입의 계산은 큰 범위의 타입으로 자동 형 변환됨
+
+
     }
 }
