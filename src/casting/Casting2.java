@@ -9,7 +9,7 @@ public class Casting2 {
 
     double doubleValue2 = 1;
     int intValue2;
-//        intValue2 = doubleValue2;  // 컴파일 오류 발생
+//    intValue2 = doubleValue2;  // 컴파일 오류 발생
     //intValue = doubleValue; //컴파일 오류 발생
     intValue = (int) doubleValue; ///형변환
     System.out.println(intValue);
@@ -24,6 +24,12 @@ public class Casting2 {
     long longValue = 0;
     longValue = (long) doubleValue;
     System.out.println(longValue);
+
+    int test1 = 1;
+    int test2 = 2;
+
+    double test3 = (double) test1 + test2;
+    System.out.println(test3);
 
   }
 }
