@@ -11,7 +11,11 @@ public class ArrayEx1 {
         int total = student1 + student2 + student3 + student4 + student5;
         double average = (double) total / 5;
 
+        double total2 = student1 + student2 + student3 + student4 + student5;
+        double average2 = total2 / 5;
+
         System.out.println("점수 총합: " + total);
         System.out.println("점수 평균: " + average);
+        System.out.println(average2);
     }
 }

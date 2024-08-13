@@ -15,5 +15,15 @@ public class ArrayDi3 {
             }
             System.out.println();//한 행이 끝나면 라인을 변경한다.
         }
+
+        String[][] strings = {
+                {"A", "b", "c"}, {"D", "E", "F"}
+        };
+        for(String[] s : strings){
+            for(String i : s){
+                System.out.println(i);
+
+            }
+        }
     }
 }

@@ -24,5 +24,9 @@ public class ArrayDi0 {
         System.out.print(arr[1][1] + " "); //1열 출력
         System.out.print(arr[1][2] + " "); //2열 출력
         System.out.println();//한 행이 끝나면 라인을 변경한다.
+
+        int[][] ar = new int[2][2];
+        ar[0][1] = 4;
+        System.out.println(ar[0][1]);
     }
 }
