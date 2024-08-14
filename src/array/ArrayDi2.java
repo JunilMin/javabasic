@@ -14,10 +14,13 @@ public class ArrayDi2 {
         arr[1][2] = 6; //0행, 2열
 
         for (int row = 0; row < 2; row++) {
+
             for (int column = 0; column < 3; column++) {
                 System.out.print(arr[row][column] + " ");
             }
             System.out.println();//한 행이 끝나면 라인을 변경한다.
         }
+
+        System.out.println(arr.length);
     }
 }

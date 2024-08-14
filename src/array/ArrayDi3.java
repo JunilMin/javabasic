@@ -8,6 +8,9 @@ public class ArrayDi3 {
             {1,2,3},
             {4,5,6}
         }; //행2, 열3
+//
+//        System.out.println(arr.length); // 행의 개수
+//        System.out.println(arr[0].length); // 첫 번째 행의 열의 길이
 
         for (int row = 0; row < arr.length; row++) {
             for (int column = 0; column < arr[row].length; column++) {
@@ -15,6 +18,8 @@ public class ArrayDi3 {
             }
             System.out.println();//한 행이 끝나면 라인을 변경한다.
         }
+
+        System.out.println(arr.length);
 
         String[][] strings = {
                 {"A", "b", "c"}, {"D", "E", "F"}
