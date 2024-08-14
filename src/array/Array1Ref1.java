@@ -19,5 +19,10 @@ public class Array1Ref1 {
         System.out.println("학생3 점수: " + students[2]);
         System.out.println("학생4 점수: " + students[3]);
         System.out.println("학생5 점수: " + students[4]);
+
+        int[] int2 = new int[]{11,22,33,44,55};
+        for(int i = 0; i < 5; i++){
+            System.out.println(int2[i]);
+        }
     }
 }
